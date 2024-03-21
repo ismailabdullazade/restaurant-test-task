@@ -1,0 +1,43 @@
+.mainDiv {
+    /*width: 100vw;*/
+    height: 100vh;
+    position: relative;
+}
+
+.heading{
+    padding-top: 30px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    /*border-bottom: 1px solid #32B768;*/
+}
+
+.heading > h1 {
+    font-size: 2rem;
+    color: rgb(55, 65, 81);
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+
+.heading > input {
+    width: 80%;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.cardsWrap{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 25px;
+}

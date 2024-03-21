@@ -1,0 +1,60 @@
+.myModal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.47);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.popUp{
+    width: 50%;
+    /*height: 60%;*/
+    background-color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.popUp > .close{
+    cursor: pointer;
+    width: 25px;
+    align-self: flex-end;
+}
+
+.popUp > form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    row-gap: 15px;
+}
+
+.popUp > form > input{
+    font-size: 1.5rem;
+
+}
+
+.popUp > form > button{
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: #32B768;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.popUp > form > p {
+    color: #f11818;
+    align-self: center;
+}
+
+.success{
+    width: 60%;
+    margin: 0 auto;
+}
